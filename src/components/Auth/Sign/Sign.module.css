@@ -1,0 +1,75 @@
+.sign__method, .sign__other {
+    background-color: #fff;
+    border-radius: 2px;
+    border: 1px solid #dbdbdb;
+    padding: 20px 40px;
+    width: 350px;
+    text-align: center;
+}
+
+.sign__logo img {
+    width: 170px;
+}
+
+.sign__method h4 {
+    margin: 10px 0 0;
+    font-size: 17px;
+    font-weight: 500;
+    color: #8e8e8e;
+}
+
+.sign__method form {
+    margin-top: 20px;
+}
+
+.sign__method input {
+    outline: none;
+    display: block;
+    width: 100%;
+    font-size: 14px;
+    font-family: inherit;
+    color: #262626;
+    border: 1px solid #c5c5c5;
+    padding: 7px;
+    background-color: #FAFAFA;
+    border-radius: 2px;
+}
+
+.sign__method button {
+    color: #fff;
+    background-color: #0095F6;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    padding: 7px 10px;
+    width: 100%;
+    font-weight: 500;;
+    font-family: inherit;
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+.sign__method button:disabled {
+    opacity: 0.5;
+    cursor: default;
+}
+
+.sign__method input:not(:last-child) {
+    margin-top: 7px;
+}
+
+.sign__other {
+    margin-top: 10px;
+}
+
+.sign__other p {
+    margin: 0;
+    font-size: 15px;
+    color: #262626;
+}
+
+.sign__other p span {
+    color: #0095F6;
+    cursor: pointer;
+    font-weight: 500;
+}

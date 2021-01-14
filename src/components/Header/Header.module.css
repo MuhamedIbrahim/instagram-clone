@@ -1,0 +1,125 @@
+.main_header {
+    background-color: #fff;
+    padding: 15px 0;
+    border: solid #dbdbdb;
+    border-width: 0 0 1px;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+}
+
+.main_header__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main_header__logo {
+    margin-bottom: -5px;
+}
+
+.main_header__nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_header__new_post {
+    background: #0095f6;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 7px 10px;
+    font-family: inherit;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.main_header__avatar {
+    position: relative;
+}
+
+.main_header__avatar__container {
+    height: 35px;
+    width: 35px;
+    background-color: #BDBDBD;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.main_header__avatar img {
+    cursor: pointer;
+}
+
+.main_header__avatar svg {
+    height: 22px;
+    cursor: pointer;
+}
+
+.main_header__avatar svg path {
+    fill: #fff;
+}
+
+.main_header__avatar ul {
+    list-style: none;
+    margin: 0;
+    position: absolute;
+    top: calc(100% + 16px);
+    right: 0;
+    min-width: 150px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0,0,0,.17);
+    border-radius: 4px;
+    padding: 0;
+    z-index: 999;
+}
+
+.nav_arrow {
+    position: absolute;
+    bottom: calc(100% - 6px);
+    right: 11px;
+    width: 12px;
+    height: 12px;
+    transform: rotate(45deg);
+    background-color: #fff;
+    box-shadow: -2px -2px 2px rgba(0,0,0,.07);
+    z-index: 1000;
+}
+
+.main_header__avatar ul li {
+    padding: 10px 15px;
+}
+
+.main_header__avatar ul li button {
+    cursor: pointer;
+    padding: 0;
+    outline: none;
+    background: none;
+    border: none;
+    font-family: inherit;
+    padding: 0;
+    font-size: 15px;
+    color: #474747;
+}
+
+.main_header__avatar ul li button svg {
+    vertical-align: bottom;
+    height: 19px;
+    width: 19px;
+    margin-right: 7px;
+}
+
+.main_header__avatar ul li button path {
+    fill: #474747;
+}
+
+.main_header__logout {
+    border-top: 1px solid #dbdbdb;
+    padding-top: 10px;
+}

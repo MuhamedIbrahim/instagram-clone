@@ -1,0 +1,116 @@
+.post {
+    background-color: #fff;
+    border-radius: 3px;
+    border: 1px solid #dbdbdb;
+}
+
+.post__header {
+    padding: 15px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.post__user {
+    display: flex;
+    align-items: center;
+}
+
+.post__user__avatar {
+    margin-right: 15px;
+    height: 30px;
+    width: 30px;
+    background-color: #BDBDBD;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.post__user__avatar svg {
+    height: 20px;
+}
+
+.post__user__avatar svg path {
+    fill: #fff;
+}
+
+.post__user__name {
+    font-size: 14px;
+    color: #262626;
+    font-weight: 500;
+    margin: 0;
+}
+
+.post__img img {
+    width: 100%;
+}
+
+.post__comments {
+    margin: 10px 0 0;
+    padding: 0 20px;
+}
+
+.post__comment {
+    font-size: 15px;
+    font-weight: 400;
+    color: #262626;
+}
+
+.post__comment:not(:first-child) {
+    margin-top: 5px;
+}
+
+.post__comment span {
+    font-weight: 500;
+}
+
+.post__time {
+    padding: 0 20px;
+    margin: 7px 0 15px;
+    font-size: 10px;
+    font-weight: 500;
+    color: #8e8e8e;
+    text-transform: uppercase;
+}
+
+.post__add_comment {
+    border: solid #dbdbdb;
+    border-width: 1px 0 0;
+    padding: 20px;
+}
+
+.post__add_comment form {
+    display: flex;
+    align-items: center;
+}
+
+.post__add_comment input {
+    background: none;
+    border: none;
+    outline: none;
+    padding: 0;
+    font-size: 15px;
+    font-family: inherit;
+    width: 100%;
+    margin-right: 20px;
+    color: #262626;
+}
+
+.post__add_comment button {
+    color: #0095f6;
+    border: none;
+    outline: none;
+    background: none;
+    padding: 0;
+    font-family: inherit;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.post__add_comment button:disabled {
+    opacity: .5;
+    cursor: default;
+}
